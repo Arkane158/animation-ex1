@@ -1,0 +1,32 @@
+# Ignore platform-specific directories
+**/windows/
+**/linux/
+**/macos/
+**/web/
+
+# Ignore IntelliJ related files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Ignore Flutter/Dart/Pub related directories and files
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Ignore Symbolication related files
+app.*.symbols
+
+# Ignore Obfuscation related files
+app.*.map.json
+
+# Ignore Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
